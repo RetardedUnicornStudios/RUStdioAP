@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BA2CE4D8-EA7F-42E1-812D-86CCA5DD8471}</ProjectGuid>
     <RootNamespace>RUStdioAP</RootNamespace>
+    <ProjectName>RUStdioAPRender</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -114,6 +115,17 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\pugixml.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RUStdioCamera.h" />
+    <ClInclude Include="RUStdioEntities.h" />
+    <ClInclude Include="RUStdioLight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RUStdioCamera.cpp" />
+    <ClCompile Include="RUStdioEntities.cpp" />
+    <ClCompile Include="RUStdioLight.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

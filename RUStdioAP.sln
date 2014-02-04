@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUStdioAP", "RUStdioAP\RUStdioAP.vcxproj", "{BA2CE4D8-EA7F-42E1-812D-86CCA5DD8471}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUStdioAPRender", "RUStdioAP\RUStdioAP.vcxproj", "{BA2CE4D8-EA7F-42E1-812D-86CCA5DD8471}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUStdioAPRunnable", "RUStdioAPRunnable\RUStdioAPRunnable.vcxproj", "{E7E80E5B-34AD-45C8-A275-110734DBD4DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{BA2CE4D8-EA7F-42E1-812D-86CCA5DD8471}.Debug|Win32.Build.0 = Debug|Win32
 		{BA2CE4D8-EA7F-42E1-812D-86CCA5DD8471}.Release|Win32.ActiveCfg = Release|Win32
 		{BA2CE4D8-EA7F-42E1-812D-86CCA5DD8471}.Release|Win32.Build.0 = Release|Win32
+		{E7E80E5B-34AD-45C8-A275-110734DBD4DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7E80E5B-34AD-45C8-A275-110734DBD4DB}.Debug|Win32.Build.0 = Debug|Win32
+		{E7E80E5B-34AD-45C8-A275-110734DBD4DB}.Release|Win32.ActiveCfg = Release|Win32
+		{E7E80E5B-34AD-45C8-A275-110734DBD4DB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
